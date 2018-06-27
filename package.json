@@ -1,0 +1,44 @@
+{
+  "name": "websocket-stream-client",
+  "version": "1.0.0",
+  "description": "Use websockets with the node streams API. Works in browser and node",
+  "scripts": {
+    "start": "beefy test-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kumarbhushan/websocket-stream-client.git"
+  },
+  "keywords": [
+    "websocket",
+    "websockets",
+    "stream",
+    "streams",
+    "realtime",
+    "electron"
+  ],
+  "_npmUser": {
+    "name": "bhushan",
+    "email": "kumarbhushan@live.in"
+  },
+  "dependencies": {
+    "duplexify": "^3.2.0",
+    "inherits": "^2.0.1",
+    "through2": "^2.0.0",
+    "ws": "^0.8.0",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^5.11.1",
+    "concat-stream": "^1.4.7",
+    "tape": "^2.14.0"
+  },
+  "optionalDependencies": {},
+  "browser": {
+    "./index.js": "./stream.js"
+  },
+  "homepage": "https://github.com/kumarbhushan/websocket-stream-client#readme",
+  "main": "index.js",
+  "author": ""
+}
